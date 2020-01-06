@@ -2,7 +2,7 @@
     "fileLocations": [
         {
             "URIPrefixes": [
-                "https://result4txt.s3.amazonaws.com/demo/"
+                "s3://result4txt/demo/"
             ]
         }
     ],

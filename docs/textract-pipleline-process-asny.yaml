@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  textractpiplelineprocessasny:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.7
+      CodeUri: .
+      Description: ''
+      MemorySize: 704
+      Timeout: 900
+      Role: 'arn:aws:iam::608494368293:role/s3-textract-lambdas'
+      Layers:
+        - 'arn:aws:lambda:us-east-2:608494368293:layer:dependences:2'

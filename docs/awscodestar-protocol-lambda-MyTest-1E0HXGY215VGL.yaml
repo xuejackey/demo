@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: 'AWS::Serverless-2016-10-31'
+Description: An AWS Serverless Specification template describing your function.
+Resources:
+  awscodestarprotocollambdaMyTest1E0HXGY215VGL:
+    Type: 'AWS::Serverless::Function'
+    Properties:
+      Handler: test.handler
+      Runtime: python3.7
+      CodeUri: .
+      Description: ''
+      MemorySize: 128
+      Timeout: 3
+      Role: 'arn:aws:iam::608494368293:role/CodeStar-protocol-Execution'
+      Tags:
+        'awscodestar:projectArn': 'arn:aws:codestar:us-east-2:608494368293:project/protocol'
