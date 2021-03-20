@@ -27,7 +27,7 @@ grappa==0.1.10
 idna==2.8
 importlib-metadata==0.23
 jdcal==1.4.1
-Jinja2==2.10.3
+Jinja2==2.11.3
 jmespath==0.9.4
 jsondiff==1.1.2
 jsonpatch==1.24
