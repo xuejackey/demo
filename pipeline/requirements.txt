@@ -62,7 +62,7 @@ regex==2019.8.19
 requests==2.22.0
 requests-mock==1.7.0
 responses==0.10.6
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.2.1
 six==1.12.0
 sortedcontainers==2.1.0
