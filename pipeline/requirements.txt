@@ -46,7 +46,7 @@ pandas==0.25.0
 pdfminer.six==20181108
 pdftotext==2.1.2
 pluggy==0.13.0
-py==1.8.0
+py==1.10.0
 pyasn1==0.4.7
 pycparser==2.19
 pycryptodome==3.8.2
